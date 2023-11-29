@@ -1,0 +1,13 @@
+einops==0.3.2
+joblib==1.1.0
+matplotlib==3.5.0
+natsort==8.0.0
+scipy==1.7.2
+SoundFile==0.10.3.post1
+torch==1.10.0+cu113
+torchaudio==0.10.0+cu113
+torchinfo==1.5.3
+pesq==0.0.3
+
+#Training: python train.py --data_dir "C:/Users/turner_le/Downloads/project/FLK_Patent/AudioDenoiser/CMGAN/data/VCTK-DEMAND"
+#Testing: python evaluation.py --test_dir "C:/Users/turner_le/Downloads/project/FLK_Patent/AudioDenoiser/CMGAN/data/AUDIO-TEST" --model_path "C:/Users/turner_le/Downloads/project/FLK_Patent/AudioDenoiser/CMGAN/best_ckpt/ckpt"
